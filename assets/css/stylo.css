@@ -103,17 +103,33 @@ header a{
     font-size: 18px;
 }
 
-footer{
-   
+section.cities{
+    background-color: black;
+    color:white;
+}
+
+footer.container{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
     background-color:black;
     color: white;
+    padding-bottom: 20px;
+   
 }
 
 footer .redes .fimfooter{
-    background-color: aliceblue;
+    background-color: white;
     width: 22px;
     height: 22px;
+    margin-left: 15px;
+    
+    
+}
 
+
+div.termo span{
+    margin-left: 15px;
 }
 
 
