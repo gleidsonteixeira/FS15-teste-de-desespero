@@ -8,7 +8,6 @@ header{
     width:100%
 }
 .logoELogin{
-    background-color: aqua;
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -18,5 +17,21 @@ header{
     position: absolute;
 }
 .titulo{
-    background-color: pink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-wrap: wrap;    
+}
+.endereco-email-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+.titulo 
+span 
+a{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
 }
