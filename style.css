@@ -35,3 +35,10 @@ a{
     justify-content: center;
     margin-top: 15px;
 }
+.facilidades{
+    padding: 150px 150px 0 150px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
