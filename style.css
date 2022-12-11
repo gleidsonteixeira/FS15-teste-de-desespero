@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    justify-content:right;
+    position: relative;
+    height: 580px;
+}
+.imagem-fundo-header{
+    width:100%
+}
+.logoELogin{
+    background-color: aqua;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    padding-right: 20px;
+    position: absolute;
+}
+.titulo{
+    background-color: pink;
+}
