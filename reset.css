@@ -3,11 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* temporario */
 body {
  width: auto;
  /* alterei o height de 100vh para 1000px(scroll) */
- height: 1000px; 
+ height: 1800px; 
 }
 main{
     background-color: palegreen;
+}
+.facilidades, 
+div{
+    border: 1px solid blue;
 }
