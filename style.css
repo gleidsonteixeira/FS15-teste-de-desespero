@@ -42,8 +42,24 @@ a{
     flex-wrap: wrap;
     text-align: center;    
 }
-.facilidades, p{
+.facilidades p{
     border: 1px solid red;
     white-space: pre-line;
+    margin: 10px 10px;    
+}
+.all-in-one-app{
+    display: flex;
+    margin-top: 100px;
+}
+.all-in-one-app
+div 
+h2 
+p 
+button{
     
 }
+.all-in-one-app 
+img{
+    height: 514px;
+}
+
