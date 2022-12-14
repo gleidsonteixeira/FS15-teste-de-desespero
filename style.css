@@ -149,7 +149,6 @@ input{
   left: 50px;
 }
 footer {
-  height: 100vh;
   background: #191919;
   display: grid;
   grid-template-columns: auto auto auto auto auto;

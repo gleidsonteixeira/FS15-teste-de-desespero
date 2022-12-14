@@ -5,9 +5,8 @@
 }
 /* temporario */
 body {
- width: auto;
+ width: 100vw;
  
- /* alterei o height de 100vh para 1000px(scroll) */
- height: 2100px; 
+ height: 100vh;
 }
 /* font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1536 - 300))); */
