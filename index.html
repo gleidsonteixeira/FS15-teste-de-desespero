@@ -16,21 +16,23 @@
         <img class="imagem-fundo-header" src="img/cabeçalho.avif" alt="">
         <div class="logoELogin">
             <div>
-                <img src="img/Vector.png" alt="">
-                <img src="img/svg.png" alt="">
+                <h1>
+                    <img src="img/Vector.png" alt="">
+                    <img src="img/svg.png" alt="">
+                </h1>
             </div>
             <div>
                 <ul>
-                    <button><a href="">Sign In</a></button>
-                    <button><a href="">Sign Up</a></button>
+                    <span id="signup"><a href="">Sign In</a></span>
+                    <button id="signin"><a href="">Sign Up</a></button>
                 </ul>
             </div>
         </div>
         <div class="titulo">
-            <h1>Restaurants and more, delivered to your door</h1>
+            <h2>Restaurants and more, delivered to your door</h2>
             <form action="" class="endereco-email-header">
-                <label for="email"></label>
-                <input type="search" placeholder="Enter delivery address">
+                <label for="search"></label>
+                <input id="gps" type="search" placeholder="Enter delivery address">
             </form>
             <span><a href="#">Sign in for saved address</a></span>
         </div>
@@ -59,18 +61,138 @@
                 <a href="#">Get the app</a>
             </div>
         </section>
-        <section class="all-in-one-app">
-            <div>
-                <h2>It’s all here. All in one app.</h2>
+        <section class="one-app">
+            <div class="info-one-app">
+                <h2>It’s all here. <br>All in one app.</h2>
+
                 <p>Discover local, on-demand delivery or
                     Pickup from restaurants, nearby grocery
-                    and convenience stores, and more.</p>
-                    <button><a href="#">Get the app</a></button>
+                    and convenience stores, and more</p>
+                <button id="botao-vermelho"><a href="#">Get the app</a></button>
             </div>
             <div>
-                <img src="img/imagem1" alt="pessoas comendo">
+                <img src="img/all_in_one.jpg.png" alt="pessoas comendo">
             </div>
         </section>
+
+        <!-- segunda imagem -->
+
+        <div class="background">
+            <section class="every-flavor-welcome">
+                <div>
+                    <img src="img/ev_fla_wel_alt.jpg.png" alt="pessoas comendo">
+                </div>
+                <div class="info-every-flavor-welcome">
+                    <h2>Every Flavor Welcome</h2>
+                    <p>From your neighborhood sushi spot to the burger and fries you crave, choose from over 300,000 local and national favorites across the U.S., Canada and Australia.</p>
+                    <button id="botao-vermelho"><a href="#">Find restaurants</a></button>
+                </div>
+            </section>
+        </div>
     </main>
+    <footer>
+        <div>
+            <h3>top-cities</h3>
+            <ul>
+                <li><a href="">New York City</a></li>
+                <li><a href="">Los Angeles</a></li>
+                <li><a href="">Toronto</a></li>
+                <li><a href="">Chicago</a></li>
+                <li><a href="">Houston</a></li>
+                <li><a href="">Brooklyn</a></li>
+                <li><a href="">San Diego</a></li>
+                <li><a href="">Las Vegas</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">San Francisco</a></li>
+                <li><a href="">Seattle</a></li>
+                <li><a href="">Atlanta</a></li>
+                <li><a href="">Queens</a></li>
+                <li><a href="">Vancouver, BC</a></li>
+                <li><a href="">Miami</a></li>
+                <li><a href="">San Antonio</a></li>
+                <li><a href="">Phoenix</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Danver</a></li>
+                <li><a href="">Austin</a></li>
+                <li><a href="">Washinghton, DC</a></li>
+                <li><a href="">Dallas</a></li>
+                <li><a href="">Melbourne</a></li>
+                <li><a href="">Sydney</a></li>
+                <li><a href="">Montreal</a></li>
+                <li><a href="">All Cities</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Top Cuisines Near You</h3>
+            <ul>
+                <li><a href="">Pizza Near Me</a></li>
+                <li><a href="">Chinese Food Near Me</a></li>
+                <li><a href="">Sushi Near Me</a></li>
+                <li><a href="">Cafe Near Me</a></li>
+                <li><a href="">Mexican Food Near Me</a></li>
+                <li><a href="">Thai Food Near Me</a></li>
+                <li><a href="">Lunch Near Me</a></li>
+                <li><a href="">Seafood Near Me</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Indian Food Near Me</a></li>
+                <li><a href="">Dessert Near Me</a></li>
+                <li><a href="">Burgers Near Me</a></li>
+                <li><a href="">Asian Food Near Me</a></li>
+                <li><a href="">Italian Food Near Me</a></li>
+                <li><a href="">Vegan Food Near Me</a></li>
+                <li><a href="">Sandwiches Near Me</a></li>
+                <li><a href="">Restaurants Near Me</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Get to Know Us</h3>
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Investors</a></li>
+                <li><a href="">Company Blog</a></li>
+                <li><a href="">Engineering Blog</a></li>
+                <li><a href="">Merchant Blog</a></li>
+                <li><a href="">Gift Cards</a></li>
+                <li><a href="">Promotions</a></li>
+                <li><a href="">Dasher Central</a></li>
+                <li><a href="">DoorDash Stories</a></li>
+                <li><a href="">LinkedIn</a></li>
+                <li><a href="">Glassdoor</a></li>
+                <li><a href="">Accessibility</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Let Us Help You</h3>
+            <ul>
+                <li><a href="">Account Details</a></li>
+                <li><a href="">Order History</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Doing Business</h3>
+            <ul>
+                <li><a href="">Become a Dasher</a></li>
+                <li><a href="">List Your Business</a></li>
+                <li><a href="">Get Dashers for Deliveries</a></li>
+                <li><a href="">Get DoorDash for Work</a></li>
+            </ul>
+        </div>
+        <div class="google">
+            <div><img src="img/div.png" alt=""></div>
+            <div><img src="img/div2.png" alt=""></div>
+        </div>
+    </footer>
 
 </html>

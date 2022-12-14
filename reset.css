@@ -6,13 +6,8 @@
 /* temporario */
 body {
  width: auto;
+ 
  /* alterei o height de 100vh para 1000px(scroll) */
- height: 1800px; 
+ height: 2100px; 
 }
-main{
-    background-color: palegreen;
-}
-.facilidades 
-div{
-    border: 1px solid blue;
-}
+/* font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1536 - 300))); */

@@ -1,65 +1,208 @@
-header{
-    display: flex;
-    justify-content:right;
-    position: relative;
-    height: 580px;
+header {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  height: 580px;
 }
-.imagem-fundo-header{
-    width:100%
+.imagem-fundo-header {
+  width: 100%;
 }
-.logoELogin{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 15px;
-    padding-right: 20px;
-    position: absolute;
+.logoELogin {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  padding-right: 20px;
+  position: absolute;
 }
-.titulo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    flex-wrap: wrap;    
+.titulo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-wrap: wrap;
 }
-.endereco-email-header{
-    display: flex;
-    justify-content: center;
-    margin-top: 33px;
+.titulo h2 {
+  color: rgba(255, 240, 237, 1);
+  font-size: 60px;
+  text-align: center;
 }
-.titulo 
-span 
-a{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
+.titulo span a {
+  color: rgba(255, 240, 237, 1);
+  font-size: 18px;
+  font-weight: bold;
 }
-.facilidades{
-    padding: 150px 150px 0 150px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    text-align: center;    
+input[type="search"] {
+  height: 50px;
+  width: 500px;
+  border-radius: 1000px;
+  border: 0;
 }
-.facilidades p{
-    border: 1px solid red;
-    white-space: pre-line;
-    margin: 10px 10px;    
+input{
+  background-image: url("img/botao-play.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 3.5em;
+  padding-left: 1.3em;
 }
-.all-in-one-app{
-    display: flex;
-    margin-top: 100px;
+.endereco-email-header {
+  display: flex;
+  justify-content: center;
+  margin-top: 33px;
 }
-.all-in-one-app
-div 
-h2 
-p 
-button{
-    
+.titulo span a {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
 }
-.all-in-one-app 
-img{
-    height: 514px;
+.facilidades {
+  padding: 150px 150px 0 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.facilidades p {
+  white-space: pre-line;
+  margin: 10px 10px;
+}
+.facilidades a {
+  text-decoration: none;
+  color: rgba(235, 23, 0, 1);
+  font-size: 18px;
+  font-weight: bold;
+}
+.moto p {
+  font-size: 20px;
+}
+.loja p {
+  font-size: 20px;
+}
+.celular p {
+  font-size: 20px;
 }
 
+.one-app {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+.one-app img {
+  max-width: 100%;
+}
+.info-one-app {
+  height: 400px;
+  justify-content: space-around;
+  text-align: justify;
+  width: 370px;
+  word-wrap: break-word;
+  position: relative;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-left: 50px;
+}
+.info-one-app p {
+  font-size: larger;
+  padding-top: 10px;
+}
+.info-one-app button {
+  margin-top: 20px;
+  position: absolute;
+  left: 50px;
+}
+
+/* segunda imagem */
+.background {
+  background-color: rgba(255, 240, 237, 1);
+  padding: 30px 164px 100px 96px;
+}
+
+.every-flavor-welcome {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.info-every-flavor-welcome p {
+  font-size: large;
+  padding-top: 10px;
+}
+.every-flavor-welcome img {
+  max-width: 100%;
+}
+.info-every-flavor-welcome {
+  height: 400px;
+  justify-content: space-around;
+  text-align: justify;
+  width: 370px;
+  word-wrap: break-word;
+  position: relative; /* botao */
+  margin-right: 150px;
+  margin-right: 150px;
+  padding-left: 50px;
+}
+.every-flavor-welcome button {
+  margin-top: 20px;
+  position: absolute;
+  left: 50px;
+}
+footer {
+  height: 100vh;
+  background: #191919;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 30px 60px 0 60px;
+  font-size: 16px;
+  line-height: 25px;
+  align-content: space-evenly;
+  justify-content: space-around;
+  position: relative;
+}
+footer a,
+h3 {
+  color: #c4c4c4;
+  padding-bottom: 10px;
+}
+footer div ul,
+li {
+  list-style: none;
+}
+.google {
+  position: absolute;
+  bottom: 280px;
+  left: 80pc;
+  display: block;
+}
+/* botões */
+#botao-vermelho {
+  border: 0;
+}
+#botao-vermelho a {
+  background-color: rgba(235, 23, 0, 1);
+  padding: 10px 20px 11px 20px;
+  border-radius: 1000px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-size: 16px;
+}
+#signup a {
+  color: rgba(255, 255, 255, 1);
+  padding: 20px 16px;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+#signin {
+  border-radius: 1000px;
+  border: none;
+  padding: 10px;
+}
+#signin a {
+  color: #191919;
+  padding: 20px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
