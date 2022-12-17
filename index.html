@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhos da FS15</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>FS15</h1>
+            <ul>
+                <li>
+                    <a onClick="link('anady/index.html')" class="active">Anady</a>
+                </li>
+                <li>
+                    <a onClick="link('assis/index.html')">Assis</a>
+                </li>
+                <li>
+                    <a onClick="link('fabio/index.html')">Fabio</a>
+                </li>
+                <li>
+                    <a onClick="link('joao/index.html')">João</a>
+                </li>
+                <li>
+                    <a onClick="link('kevin/index.html')">Kevin</a>
+                </li>
+                <li>
+                    <a onClick="link('lucas_coelho/index.html')">L. Coelho</a>
+                </li>
+                <li>
+                    <a onClick="link('lucas_vieira/index.html')">L. Vieira</a>
+                </li>
+                <li>
+                    <a onClick="link('sarah/index.html')">Sarah</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <iframe id="iframe" src="anady/index.html" frameborder="0"></iframe>
+    </main>
+    <script>
+        function link(link){
+            let iframe = document.getElementById("iframe");
+            iframe.src = link;
+            let lis = document.getElementsByTagName("li");
+            for(let i = 0; i <= lis.length; i++){
+                lis[i].classList.remove("active");
+            }
+            let li = event.target;
+            console.log(li);
+        }
+    </script>
+</body>
+</html>
